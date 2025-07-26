@@ -142,14 +142,14 @@ function NewsDetail() {
 
   return (
     <div style={{ padding: "20px", maxWidth: "800px", margin: "auto" }}>
-      <button onClick={handleBack} style={{ marginBottom: "20px" }}>← Back to Home</button>
+      <button onClick={handleBack} className="button back-btn">← Back to Home</button>
       <h1>{mainArticle.title}</h1>
       <img src={mainArticle.imageUrl} alt="article" style={{ width: "100%", borderRadius: "8px" }} />
       <p style={{ marginTop: "20px" }}>
         {showFull ? mainArticle.fullContent : mainArticle.summary}
       </p>
       {!showFull && (
-        <button onClick={handleContinueReading} style={{ marginTop: "10px" }}>
+        <button onClick={handleContinueReading} className="button continue-btn">
           Continue Reading
         </button>
       )}
