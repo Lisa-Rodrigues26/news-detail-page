@@ -11,3 +11,33 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  transition: background-color 0.3s ease;
+  margin-right: 12px;
+}
+
+.continue-btn {
+  background-color: #2563eb; /* Blue */
+  color: white;
+  margin-top: "10px" 
+}
+
+.continue-btn:hover {
+  background-color: #1d4ed8; /* Darker blue */
+}
+
+.back-btn {
+  background-color: #e5e7eb; /* Light gray */
+  color: #111827; /* Dark text */
+  margin-bottom: "20px" 
+}
+
+.back-btn:hover {
+  background-color: #d1d5db; /* Slightly darker gray */
+}
